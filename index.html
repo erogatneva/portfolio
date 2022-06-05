@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="site-menu">
+    <div class="white-container">
+        <nav class="site-menu">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#aboutme">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
             <br>
             <hr>
-        </div>
-        <div class="info">
+        </nav>
+        <div id="info" class="info">
             <p class="name">
                 Ekaterina<br>
                 Rogatneva
@@ -35,35 +35,48 @@
                 <button>ENG</button>
             </div>
         </div>
-        <img src="src/my-photo.jpg" alt="Моё фото">
+        <img class="my-photo" src="src/my-photo.jpg" alt="My photo">
     </div>
-    <div class="about-me">
+    <div id="aboutme" class="gray-container">
         <h1>About me</h1>
-        <div class="about-me-wrapper">
+        <div class="gray-container-wrapper">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
                 Ad ipsum facere aspernatur molestiae, fugit, assumenda sequi obcaecati at laborum animi pariatur beatae in explicabo.</p>
             <p>Sint quaerat, beatae eos eum similique ducimus possimus ab debitis accusantium cupiditate sapiente tenetur laudantium sequi nisi saepe commodi neque inventore dolorem?</p>
             <p>Suscipit similique, delectus qui quae corporis saepe!</p>
         </div>
     </div>
-    <div class="skills">
+    <div id="skills" class="white-container">
         <h1>Skills</h1>
         <p>I work in such programs like</p>
         <div class="icons">
-            <img src="" alt="1">
-            <img src="" alt="2">
-            <img src="" alt="3">
-            <img src="" alt="4">
+            <figure>
+                <img class="icon" src="src/vscode.png" alt="VS Code"><br><br>
+                <figcaption>VS Code</figcaption>
+                <img class="rate" src="src/4-5.png" alt="4/5">
+            </figure>
+            <figure>
+                <img class="icon" src="src/figma.png" alt="Figma"><br><br>
+                <figcaption>Figma</figcaption>
+                <img class="rate" src="src/3-5.png" alt="3/5">
+            </figure>
+            <figure>
+                <img class="icon" src="src/photoshop.png" alt="Photoshop"><br><br>
+                <figcaption>Photoshop</figcaption>
+                <img class="rate" src="src/4-5.png" alt="4/5">
+            </figure>
+            <figure>
+                <img class="icon" src="src/git.png" alt="Git"><br><br>
+                <figcaption>Git</figcaption>
+                <img class="rate" src="src/3-5.png" alt="3/5">
+            </figure>
         </div>
-        <div class="legends">
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
-        </div>
-        <div class="rate">
-            
-        </div>
+    </div>
+    <div id="portfolio" class="gray-container">
+        <h1>Portfolio</h1>
+    </div>
+    <div id="contacts" class="white-container">
+        <h1>Contacts</h1>
     </div>
 </body>
 </html>
