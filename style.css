@@ -1,0 +1,220 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body, ul {
+    margin: 0;
+    /* font-family: 'Varela Round', sans-serif; */
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.menu {
+    width: 944px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.menu a:hover {
+    color: #070707;
+}
+
+hr {
+    color: #828282;
+    width: 940px;
+    size: 1px;
+    margin: 0 auto;
+}
+
+.personal-info {
+    width: 944px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.personal-info h1 {
+    width: 150px;
+    font-size: 47px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.personal-info p {
+    width: 155px;
+    margin-top: 95px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.wrapper-personal-info-buttons {
+    width: 65px;
+    height: 20px;
+    transform: rotate(270deg) translate(75px, 22px);
+    font-size: 16px;
+}
+
+.wrapper-personal-info-buttons button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: #828282;
+    font-weight: bold;
+}
+
+.wrapper-personal-info-buttons button:hover {
+    color: #070707;
+}
+
+.wrapper-img {
+    width: 944px;
+    margin: 0 auto;
+    margin-bottom: 104px;
+}
+
+.container {
+    background-color: #F6F6F6;
+}
+
+.about-me {
+    width: 485px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-me h2 {
+    padding-top: 120px;
+}
+
+.wrapper-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 107px;
+}
+
+.skills {
+    width: 944px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills h2 {
+    padding-top: 91px;
+    padding-bottom: 69px;
+}
+
+.skills p {
+    padding-bottom: 83px;
+}
+
+.wrapper-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    padding-bottom: 28px;
+    height: 88px;
+}
+
+.wrapper-skills figcaption {
+    color: #828282;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.rate {
+    width: 130px;
+    margin-top: -40px;
+    margin-bottom: 110px;
+}
+
+.portfolio {
+    width: 944px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portfolio h2 {
+    padding-top: 113px;
+    padding-bottom: 47px;
+}
+
+.portfolio img {
+    padding-bottom: 45px;
+}
+
+.portfolio p {
+    padding-bottom: 96px;
+}
+
+.wrapper-portfolio {
+    width: 944px;
+    margin: 0 auto;
+}
+
+.contacts {
+    width: 944px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts h2 {
+    padding-top: 114px;
+    padding-bottom: 20px;
+}
+
+.contacts p {
+    padding-bottom: 30px;
+}
+
+.contacts button {
+    border: none;
+    background-color: #070707;
+    color: #ffffff;
+    font-size: 18px;
+    width: 180px;
+    height: 42px;
+    margin-bottom: 86px;
+    padding: 0;
+    border-radius: 25px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #828282;
+    font-size: 14px;
+}
+
+.wrapper-contacts {
+    width: 340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper-contacts img {
+    width: 40px;
+    margin-bottom: 46px;
+}
+
+.text-style h2 {
+    font-size: 32px;
+}
+
+.text-style p {
+    font-size: 18px;
+}
