@@ -4,88 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="menu">
             <a href="#home">Home</a>
             <a href="#about-me">About me</a>
             <a href="#skills">Skills</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contacts">Contacts</a>
         </nav>
+        <hr>
     </header>
     <main>
-        <section id="home">
+        <section id="home" class="personal-info">
             <h1>Ekaterina Rogatneva</h1>
-            <p>Frontend developer</p>
-            <p>24 years old, Moscow</p>
-            <button>RU</button>
-            <span>|</span>
+            <p>
+                Frontend developer 24 years old, Moscow
+            </p>
+            <div class="wrapper-personal-info-buttons">
+                <button>RU</button>
+            |
             <button>ENG</button>
-            <img src="src/my-photo.jpg" alt="My photo">
-        </section>
-        <section id="about-me">
-            <div class="wrapper-about-me">
-                <h2>About me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quis maxime eius distinctio minus eveniet asperiores reiciendis, illum veritatis, delectus voluptate quaerat velit ut itaque?</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </section>
-        <section id="skills">
+        <div class="wrapper-img">
+            <img src="src/placeholder.jpg" alt="My photo">
+        </div>
+        <div class="container">
+            <section id="about-me" class="text-style about-me">
+                <h2>About me</h2>
+                <div class="wrapper-about-me">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Cupiditate quis maxime eius distinctio minus eveniet asperiores reiciendis,
+                        illum veritatis, delectus voluptate quaerat velit ut itaque?</p>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+        </section>
+        </div>
+        <section id="skills" class="text-style skills">
             <h2>Skills</h2>
             <p>I work with</p>
             <div class="wrapper-skills">
                 <!-- emmet: (figure>img+figcaption)*5 -->
                 <figure>
-                    <img src="" alt="HTML">
-                    <figcaption></figcaption>
+                    <img class="icon" src="src/html.png" alt="HTML">
+                    <figcaption>HTML</figcaption>
+                    <img class="rate" src="src/3-5.png" alt="3/5">
                 </figure>
                 <figure>
-                    <img src="" alt="CSS">
-                    <figcaption></figcaption>
+                    <img class="icon" src="src/css.png" alt="CSS">
+                    <figcaption>CSS</figcaption>
+                    <img class="rate" src="src/3-5.png" alt="3/5">
                 </figure>
                 <figure>
-                    <img src="" alt="JS">
-                    <figcaption></figcaption>
+                    <img class="icon" src="src/js.png" alt="JS">
+                    <figcaption>JavaScript</figcaption>
+                    <img class="rate" src="src/2-5.png" alt="2/5">
                 </figure>
                 <figure>
-                    <img src="" alt="Figma">
-                    <figcaption></figcaption>
+                    <img class="icon" src="src/figma.png" alt="Figma">
+                    <figcaption>Figma</figcaption>
+                    <img class="rate" src="src/2-5.png" alt="2/5">
                 </figure>
             </div>
         </section>
-        <section>
-            <div class="wrapper-portfolio">
+        <div class="container">
+            <section id="portfolio" class="text-style portfolio">
                 <h2>Portfolio</h2>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption><a href=""></a></figcaption>
-                </figure>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption><a href=""></a></figcaption>
-                </figure>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption><a href=""></a></figcaption>
-                </figure>
-            </div>
-        </section>
-        <section>
+                <div class="wrapper-portfolio">
+                        <img src="src/placeholder.jpg" alt="">
+                        <p><a href="#">Placeholder</a></p>
+                        <img src="src/placeholder.jpg" alt="">
+                        <p><a href="#">Placeholder</a></p>
+                        <img src="src/placeholder.jpg" alt="">
+                        <p><a href="#">Placeholder</a></p>
+                </div>
+            </section>
+        </div>
+        <footer id="contacts" class="text-style contacts">
             <h2>Contacts</h2>
-            <p>Want to know more?</p>
-            <p>You are welcome!</p>
-            <button type="submit">Send message</button>
+            <p>Want to know more?<br>You are welcome!</p>
+            <button>Send message</button>
             <div class="wrapper-contacts">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <a href="https://vk.com/0gurechnaya"><img src="src/vk.png" alt="vk"></a>
+                <a href="https://t.me/rina_rogatneva"><img src="src/telegram.png" alt="telegram"></a>
+                <a href="mailto:swamp.swift@gmail.com"><img src="src/gmail.png" alt="gmail"></a>
             </div>
-        </section>
+            <a href="https://www.flaticon.com/ru/free-icons/" title="логотип иконки">Логотип иконки от Freepik - Flaticon</a>
+        </footer>
     </main>
 </body>
 </html>
